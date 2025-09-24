@@ -57,11 +57,11 @@ public class TestRectangle {
         Prints user's objects attributes and prompts
         that tell the user the methods are being tested.
          */
-        System.out.printf("Testing method getWidth() on object yourRectangle... " + "%nObject yourRectangle's width is: " + yourRectangle.getWidth() + " units wide.");
+        System.out.printf("Calling getWidth() for object yourRectangle... " + "%nObject yourRectangle's width is: " + yourRectangle.getWidth() + " units wide.");
 
         System.out.println();
 
-        System.out.printf("%nTesting method getHeight() on object yourRectangle... " + "%nObject yourRectangle's height is: " + yourRectangle.getHeight() + " units high.");
+        System.out.printf("%nCalling method getHeight() for object yourRectangle... " + "%nObject yourRectangle's height is: " + yourRectangle.getHeight() + " units high.");
 
         System.out.println();
 
