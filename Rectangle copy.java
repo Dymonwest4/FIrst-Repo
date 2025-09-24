@@ -31,25 +31,25 @@ public class Rectangle {
     /*Getter method that returns
      the updated width of the rectangle.*/
     public double getWidth() {
-        return width; //Returns the width of the specified rectangle object.
+        return "here is your rectangle's width: " + width; //Returns the width of the specified rectangle object.
     }
 
     /*Getter method that gets the
     updated height of the rectangle.*/
     public double getHeight() {
-        return height; //returns the height of the specified rectangle object.
+        return "here is your rectangle's height " + height; //returns the height of the specified rectangle object.
     }
 
     /*Getter method that returns
      the area of the rectangle.*/
     public double getArea() {
-        return (width * height); //returns the updated area for respective rectangle object.
+        return "The are of your rectangle is " + (width * height); //returns the updated area for respective rectangle object.
     }
 
     /*Getter method for the
     perimeter of the rectangle.*/
     public double getPerimeter() {
-        return 2 * (width + height); // returns the perimeter of the respective rectangle object.
+        return "The perimeter of your rectangle is " + 2 * (width + height); // returns the perimeter of the respective rectangle object.
     }
 
     /*String method that returns
