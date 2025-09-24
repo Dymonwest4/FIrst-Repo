@@ -28,7 +28,7 @@ public class TestDailyTemps {
          */
         for(int i=0; i < 7; i++) {
 
-            System.out.print("It's " + usersSavedTemps.theWeekday[i] + " of the week, enter the Temperature:  ");
+            System.out.print("It's " + usersSavedTemps.theWeekday[i] + " of the week. What is the temp?  ");
             userTemp = scanner.nextInt();
             usersSavedTemps.setTemp(usersSavedTemps.theWeekday[i], userTemp); //calls setTemp method  and passes object's array attribute and user's temps.
 
@@ -48,11 +48,11 @@ public class TestDailyTemps {
 
         System.out.println();
 
-        System.out.println("Testing method setTemp(): ");
+        System.out.println("calling setTemp(): ");
         System.out.print("What day of the week would you like to change the temperature of? ");
         userDay = scanner.next();
 
-        System.out.print("What is the new temperature? ");
+        System.out.print("Your new temperature? ");
         userTemp = scanner.nextInt();
 
         usersSavedTemps.setTemp(userDay, userTemp);
